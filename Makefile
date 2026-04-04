@@ -17,7 +17,7 @@ ps:
 logs:
 	docker compose logs -f
 
-app:
+exec:
 	docker compose exec app sh
 
 composer-install:
